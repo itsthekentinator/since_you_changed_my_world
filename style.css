@@ -1,0 +1,40 @@
+body {
+  background-color: #FFD1DC;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.time-section {
+  margin: 0 10px;
+}
+
+#days,
+#hours {
+  display: block;
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #FF69B4;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.time-label {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #000000;
+}
